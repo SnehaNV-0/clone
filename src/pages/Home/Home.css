@@ -1,0 +1,30 @@
+.movie{
+    position: relative;
+}
+.movie-img{
+    width: 1539px;
+    height: 600px;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.movie-btn{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.movie-btn .btn img{
+    width: 25px;
+}
+.movie-btn .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
